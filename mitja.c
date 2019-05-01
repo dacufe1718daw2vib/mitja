@@ -11,7 +11,7 @@ while(consulta=='s'){
 	scanf("%f",&nou_valor);
 	suma=suma+nou_valor;
 	numero_repeticions=numero_repeticions+1;
-	printf("vols continuar (s/n: ";
+	printf("vols continuar (s/n: ");
 	scanf(" %c",&consulta);
 }
 mitja=suma/numero_repeticions;
